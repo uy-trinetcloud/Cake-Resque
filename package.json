@@ -11,8 +11,8 @@
     "scheduled jobs"
   ],
   "repository": {
-    "type": "vcs",
-    "url": "https://github.com/uy-trinetcloud/Cake-Resque"
+    "type": "git",
+    "url": "git://github.com/kamisama/Cake-Resque.git"
   },
   "homepage": "http://cakeresque.kamisama.me/",
   "author": {
