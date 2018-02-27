@@ -22,6 +22,6 @@ use Cake\Console\ShellDispatcher;
 use Cake\Console\Shell;
 use CakeResque\Resque_Job_Creator;
 
-define('APP', getenv('APP'));
+include getenv('APP') . '../config/bootstrap.php';
 
 new ShellDispatcher($argv);
