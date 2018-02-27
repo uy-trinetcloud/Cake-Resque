@@ -1,6 +1,6 @@
 
 {
-  "name": "cake-resque/cake-resque",
+  "name": "kamisama/cake-resque",
   "description": "A CakePHP plugin for creating background jobs with Resque",
   "version": "4.1.2",
   "keywords": [
