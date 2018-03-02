@@ -22,8 +22,4 @@ use Cake\Console\ShellDispatcher;
 use Cake\Console\Shell;
 use CakeResque\Resque_Job_Creator;
 
-if (! defined('APP')) {
-    define('APP', getenv('APP'));
-}
-
 new ShellDispatcher($argv);
