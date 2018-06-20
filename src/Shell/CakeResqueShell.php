@@ -264,7 +264,7 @@ class CakeResqueShell extends Shell
         ];
 
         return parent::getOptionParser()
-            ->description(
+            ->setDescription(
                 __d('cake_resque', "A Shell to manage PHP Resque") . "\n" .
                 __d('cake_resque', "Version " . CakeResqueShell::VERSION) . "\n" .
                 "Wan Chen (" . date('Y') . ")"
